@@ -50,14 +50,14 @@ const Card = (props) => (
             <h3 className="text-black text-sm font-bold font-sans">
               {profile.name}
             </h3>
-            <a href={profile.html_url}>
+            <a href={profile.html_url} target="_blank" rel="noreferrer">
               <h3 className="text-black text-sm font-sans">@{profile.login}</h3>
             </a>
             <p className="mt-2 font-sans font-light text-grey-dark">
               {profile.bio}
             </p>
           </div>
-          <div className="flex justify-center px-3 md:px-0 pb-5 text-grey-dark">
+          <div className="flex justify-center text-sm px-3 md:px-0 pb-5 text-grey-dark">
             <div className="text-center mr-3 border-r pr-3">
               <h4>{profile.following}</h4>
               <span>following</span>
