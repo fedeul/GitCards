@@ -16,7 +16,7 @@ const Card = (props) => (
           >
             <i className="las la-trash-alt transform hover:scale-125 motion-reduce:transform-none hover:text-red-600 top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  rounded-full mx-1 focus:outline-none"></i>
           </button>
-          <button
+          {/* <button
             className="focus:outline-none"
             onClick={() => (
               // eslint-disable-next-line no-sequences
@@ -31,7 +31,7 @@ const Card = (props) => (
               id={"star-" + profile.id}
               className="las la-star transform hover:scale-125 motion-reduce:transform-none hover:text-yellow-200 top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  mx-1 focus:outline-none"
             ></i>
-          </button>
+          </button> */}
         </div>
         <div className="rounded-lg overflow-hidden bg-white shadow-2xl max-w-xs m-2">
           <img

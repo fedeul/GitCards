@@ -26,7 +26,7 @@ class Form extends React.Component {
           {" "}
           <i class="lab la-github flex mr-3 place-items-center text-5xl"></i>{" "}
           <h1 className="flex justify-center items-center text-2xl">
-            Github User's Cards
+            Github User Cards
           </h1>
         </a>
         <div className="flex justify-evenly items-center">
