@@ -14,7 +14,7 @@ const Card = (props) => (
               (document.getElementById(profile.id).id = "")
             )}
           >
-            <i className="las la-trash-alt top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  rounded-full mx-1 focus:outline-none"></i>
+            <i className="las la-trash-alt transform hover:scale-125 motion-reduce:transform-none hover:text-red-600 top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  rounded-full mx-1 focus:outline-none"></i>
           </button>
           <button
             className="focus:outline-none"
@@ -29,7 +29,7 @@ const Card = (props) => (
           >
             <i
               id={"star-" + profile.id}
-              className="las la-star top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  mx-1 focus:outline-none"
+              className="las la-star transform hover:scale-125 motion-reduce:transform-none hover:text-yellow-200 top-56 shadow-2xl flex justify-center items-center text-2xl w-6 h-6  mx-1 focus:outline-none"
             ></i>
           </button>
         </div>
