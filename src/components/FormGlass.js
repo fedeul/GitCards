@@ -20,7 +20,7 @@ class FormGlass extends React.Component {
         <div className="flex mb-4 md:mb-0 md:mr-4 place-items-center">
           <i class="lab la-github flex mr-3 place-items-center text-5xl"></i>{" "}
           <h1 className="flex justify-center items-center text-2xl">
-            Github User's Cards
+            Github User Cards
           </h1>
         </div>
         <div className="flex justify-evenly items-center">

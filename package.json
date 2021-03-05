@@ -17,6 +17,7 @@
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3",
     "web-vitals": "^1.1.0"
   },
+  "homepage": "http://www.eldiletante.com.ar/Code/GitHub-Cards/Glass/",
   "scripts": {
     "start": "craco start",
     "build": "craco build",
