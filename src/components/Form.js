@@ -17,12 +17,18 @@ class Form extends React.Component {
         className="m-1  md:m-4 md:pb-8 md:flex justify-between "
         onSubmit={this.handleSubmit}
       >
-        <div className="flex mb-4 md:mb-0 place-items-center">
+        <a
+          className="flex mb-4 md:mb-0 place-items-center"
+          href="https://github.com/fedeul/GitCards/tree/clean-cards"
+          target="_blank"
+          rel="noreferrer"
+        >
+          {" "}
           <i class="lab la-github flex mr-3 place-items-center text-5xl"></i>{" "}
           <h1 className="flex justify-center items-center text-2xl">
-            Github User's Cards
+            Github User Cards
           </h1>
-        </div>
+        </a>
         <div className="flex justify-evenly items-center">
           <input
             className="rounded-lg  p-2 border text-gray-800 border-gray-200 bg-white focus:outline-none focus:shadow-2xl focus:border-gray-400 focus:ring-1 ring-gray-500 focus:ring-opacity-50 "
